@@ -1,0 +1,16 @@
+topic: flightatc
+
+brokerAddress: 120.133.0.148:9092,120.133.0.156:9092,120.133.0.157:9092
+groupId: foo
+sessionTimeOut: 15000
+autoOffsetReset: earliest
+
+#spring:
+#  kafka:
+#    bootstrap-servers: 120.133.0.148:9092,120.133.0.156:9092,120.133.0.157:9092
+#
+#    consumer:
+#      group-id: foo
+#      auto-offset-reset: earliest
+#      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
